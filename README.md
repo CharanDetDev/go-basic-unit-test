@@ -12,7 +12,7 @@
 - Monitor viewer On vscode :
   แก้ไขเพิ่มเติมที่ setting.json :
 
-```json
+```setting.json
   {
    "go.coverOnSave": true,
    "go.coverOnSingleTest": true,
@@ -23,6 +23,7 @@
        "coveredGutterStyle": "blockgreen",
        "uncoveredGutterStyle": "blockred"
    }
+  }
 ```
 
 - เปิด Terminal ณ ตำแหน่ง Package ที่ต้องการสร้าง Function Mock สำหรับทดสอบ
