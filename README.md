@@ -12,18 +12,18 @@
 - Monitor viewer On vscode :
   แก้ไขเพิ่มเติมที่ setting.json :
 
-```setting.json
-  {
-   "go.coverOnSave": true,
-   "go.coverOnSingleTest": true,
-   "go.coverageDecorator": {
-       "type": "gutter",
-       "coveredHighlightColor": "rgba(64,128,128,0.5)",
-       "uncoveredHighlightColor": "rgba(128,64,64,0.25)",        
-       "coveredGutterStyle": "blockgreen",
-       "uncoveredGutterStyle": "blockred"
-   }
+```json
+{
+  "go.coverOnSave": true,
+  "go.coverOnSingleTest": true,
+  "go.coverageDecorator": {
+    "type": "gutter",
+    "coveredHighlightColor": "rgba(64,128,128,0.5)",
+    "uncoveredHighlightColor": "rgba(128,64,64,0.25)",
+    "coveredGutterStyle": "blockgreen",
+    "uncoveredGutterStyle": "blockred"
   }
+}
 ```
 
 - เปิด Terminal ณ ตำแหน่ง Package ที่ต้องการสร้าง Function Mock สำหรับทดสอบ
