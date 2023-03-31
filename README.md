@@ -1,4 +1,5 @@
 # The Go Language Programming : Basic Unit Testing
+
 > ## **vscode Setting**
 
 - Package Mock & Generate สำหรับสร้างการจำลองข้อมูล
@@ -12,10 +13,11 @@
   แก้ไขเพิ่มเติมที่ setting.json :
 
 ```json
+  {
    "go.coverOnSave": true,
    "go.coverOnSingleTest": true,
    "go.coverageDecorator": {
-     "type": "gutter",
+       "type": "gutter",
        "coveredHighlightColor": "rgba(64,128,128,0.5)",
        "uncoveredHighlightColor": "rgba(128,64,64,0.25)",        
        "coveredGutterStyle": "blockgreen",
