@@ -2,13 +2,6 @@
 
 > ## **vscode Setting**
 
-- Package Mock & Generate สำหรับสร้างการจำลองข้อมูล
-  - Go 1.16+ :
-    go install github.com/golang/mock/mockgen@v1.6.0
-  - Go version < 1.16 :
-    GO111MODULE=on go get github.com/golang/mock/mockgen@v1.6.0
-- Package Mock & Compare results :
-  - go get github.com/stretchr/testify/assert
 - Monitor viewer On vscode :
   แก้ไขเพิ่มเติมที่ setting.json :
 
@@ -25,9 +18,6 @@
   }
 }
 ```
-
-- เปิด Terminal ณ ตำแหน่ง Package ที่ต้องการสร้าง Function Mock สำหรับทดสอบ
-- Run คำสั่ง mockgen --source=filename.go --destination=./mock/filename.go จะได้ mock folder และ file ที่ถูกสร้างขึ้นจากคำสั่ง mockgen
 
 - หลักการ AAA ของการทำ Unit test
   - Arrage : คือการเตรียมข้อมูลสำหรับการทำ Unit test
